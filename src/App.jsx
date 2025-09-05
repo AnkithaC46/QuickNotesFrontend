@@ -10,8 +10,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<MainAppContent />} />
         <Route path="/shared/:token" element={<SharedNoteViewer />} />
-        {/* Optional: Add a 404 Not Found Page */}
-        {/* <Route path="*" element={<div>404 Not Found</div>} /> */}
+      
       </Routes>
     </BrowserRouter>
   );
